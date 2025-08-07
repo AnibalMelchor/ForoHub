@@ -12,13 +12,25 @@ Construir un backend robusto y escalable que sirva como base para un sistema de 
 
 Este backend funciona como una API REST diseñada para ser consumida por una futura interfaz web o móvil.
 
+## 📚 Documentación
+
+La API está documentada con **Swagger UI**, facilitando la exploración y prueba de los endpoints de forma interactiva.
+
+Puedes acceder a la documentación en:
+
+http://localhost:8080/swagger-ui.html
+
 ## 🚧 Próximamente
 
-En las siguientes etapas se implementará:
+- 🔐 **Autenticación y Autorización con Spring Security y JWT** (implementado)
 
-- 🔐 **Autenticación y Autorización con Spring Security y JWT**
-- 🚫 **Restricción de accesos a endpoints según rol**
+## 🛠️ Tecnologías utilizadas
 
----
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- H2 (desarrollo) / PostgreSQL (producción)
+- Maven
+- Swagger / SpringDoc (documentación de la API)
 
 Desarrollador - Anibal Melchor Cordero
